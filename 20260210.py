@@ -2,3 +2,5 @@
 
 A = 100
 print("This is the value of A: ", A)
+
+print(type(A))
