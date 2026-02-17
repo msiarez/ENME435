@@ -3,4 +3,5 @@ print("All packages imported properly!")
 A = np.array([100,200,300])
 print(A)
 
-print("Index 2 od A: ",A[2])
+print("Index 2 of A: ",A[2])
+print("Type of Index 2 of A: ",type(A[2]))
