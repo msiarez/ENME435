@@ -13,4 +13,8 @@ plt.figure(2)
 plt.plot(x,y/2,'r--')
 plt.grid()
 
+plt.title("Figure 2 Title Here")
+plt.xlabel('X')
+plt.ylabel('Y')
+
 plt.show()
