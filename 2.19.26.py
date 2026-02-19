@@ -17,4 +17,6 @@ plt.title("Figure 2 Title Here")
 plt.xlabel('X')
 plt.ylabel('Y')
 
+plt.legend()
+
 plt.show()
