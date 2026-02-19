@@ -10,7 +10,7 @@ plt.figure(1)
 plt.plot(x,y,'bo-')
 
 plt.figure(2)
-plt.plot(x,y/2,'r--')
+plt.plot(x,y/2,'r--',label="y2")
 plt.grid()
 
 plt.title("Figure 2 Title Here")
