@@ -6,4 +6,4 @@ x = np.linspace(-10,10,100)
 
 y = np.sin(x)
 
-print(y)
+plt.plot(x,y)
