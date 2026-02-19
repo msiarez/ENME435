@@ -1,7 +1,9 @@
 import numpy as np
 
-A = np.array([100,200,300,400,500])
-print(A)
+import matplotlib.pyplot as plt
 
-print("The last element of A: ",A[-1])
-print("The shape of A: ", np.shape(A))
+x = np.linspace(-10,10,100)
+
+y = np.sin(x)
+
+print(y)
