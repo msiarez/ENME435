@@ -19,4 +19,6 @@ plt.ylabel('Y')
 
 plt.legend()
 
+plt.savefig('2192026.png')
+
 plt.show()
