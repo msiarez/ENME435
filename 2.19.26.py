@@ -7,10 +7,10 @@ x = np.linspace(-10,10,100)
 y = np.sin(x)
 
 plt.figure(1)
-plt.plot(x,y,'b')
+plt.plot(x,y,'bo-')
 
 plt.figure(2)
-plt.plot(x,y/2,'r')
+plt.plot(x,y/2,'r--')
 plt.grid()
 
 plt.show()
