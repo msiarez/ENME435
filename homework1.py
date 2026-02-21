@@ -66,7 +66,7 @@ print()
 import random
 
 for i in range(50): #does 50 lines
-  line = 10 + i #first line starts at 10 but adds one more digit ending with the last line having 59 digits
+  line = 10 + i #first line starts at 10 but adds one more digit for each line ending with the last line having 59 digits
   for n in range(line): #prints the number of values for how long the line should be
     print(random.randint(0,1), end="")
   print()
