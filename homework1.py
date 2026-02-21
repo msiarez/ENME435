@@ -35,12 +35,12 @@ min1, min2 = min2, min1
 
 if w < x:
   w = min1
-else
+else:
   x = min1
 
 if y < z:
   y = min2
-else
+else:
   z = min2
 
 print("w =", w, "x =", x, "y =", y, "z =", z)
