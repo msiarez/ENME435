@@ -81,7 +81,7 @@ while True:
   count += 1
   if n == 5:
     break
-  in n < 3:
+  if n < 3:
     less = True
 
 if less == False:
