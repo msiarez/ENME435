@@ -79,9 +79,9 @@ less = False
 while True:
   num = int(input("Enter number from 1 to 10: "))
   count += 1
-  if n == 5:
+  if num == 5:
     break
-  if n < 3:
+  if num < 3:
     less = True
 
 if less == False:
