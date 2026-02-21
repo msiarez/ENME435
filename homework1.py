@@ -48,7 +48,7 @@ print("w =", w, "x =", x, "y =", y, "z =", z)
 #Question 5
 numbers = []
 
-for i in range(10)
+for i in range(10):
   num = int(input("Enter number {i+1}/10: "))
   list.append(num)
 
