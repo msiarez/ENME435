@@ -49,7 +49,7 @@ print("w =", w, "x =", x, "y =", y, "z =", z)
 numbers = []
 
 for i in range(10):
-  num = int(input("Enter number {i+1}/10: "))
+  num = int(input(f"Enter number {i+1}/10: "))
   list.append(num)
 
 sort = sorted(sort(list))
