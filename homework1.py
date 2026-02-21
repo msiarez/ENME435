@@ -71,3 +71,20 @@ for i in range(50):
   for n in range(line):
     print(random.randint(0,1), end="")
   print()
+
+#Question 8
+count = 0
+less = False
+
+while True:
+  num = int(input("Enter number from 1 to 10: "))
+  count += 1
+  if n == 5:
+    break
+  in n < 3:
+    less = True
+
+if less == False:
+  print("Numbers entered: ", count, "no")
+else:
+  print("Numbers entered: ", count, "yes")
