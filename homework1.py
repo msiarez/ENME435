@@ -50,7 +50,7 @@ for i in range(10):
   num = int(input(f"Enter number {i+1}/10: "))
   numbers.append(num)
 
-numbers = sorted(set(numbers)) #set gets rid of the duplicates and sorted returns the set back to a sorted list
+numbers = sorted(set(numbers)) #set gets rid of the duplicates and sorted returns the set back to a list from least to greatest
 
 print("The 2 smallest numbers are:", numbers[:2]) #prints the first 2 values of the list
 
@@ -67,7 +67,7 @@ import random
 
 for i in range(50): #does 50 lines
   line = 10 + i #first line starts at 10 but adds one more digit for each line ending with the last line having 59 digits
-  for n in range(line): #prints the number of values for how long the line should be
+  for n in range(line): #prints the number of random values either 0 or 1 for how long the line should be
     print(random.randint(0,1), end="")
   print()
 
