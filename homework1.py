@@ -50,8 +50,8 @@ numbers = []
 
 for i in range(10):
   num = int(input(f"Enter number {i+1}/10: "))
-  list.append(num)
+  numbers.append(num)
 
-sort = sorted(sort(list))
+numbers = sorted(set(numbers))
 
-print("The 2 smallest numbers are:", sort[:2])
+print("The 2 smallest numbers are:", numbers[:2])
