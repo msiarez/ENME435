@@ -17,17 +17,30 @@ x = float(input("Input value for x: "))
 y = float(input("Input value for y: "))
 z = float(input("Input value for z: "))
 
-min1 = min(w, x)
-min2 = min(y, z)
-
-if w == min1:
-    w = min2
+if w < x:
+  min1 = w
+  max1 = x
 else:
-    x = min2
-
-if y == min2:
-    y = min1
+  min1 = x
+  max1 = w
+  
+if y < z:
+  min2 = y
+  max2 = z
 else:
-    z = min1
+  min2 = z
+  max2 = y
 
-print("Final values: w =", w, "x =", x, "y =", y, "z =", z)
+min1, min2 = min2, min1
+
+if w < x:
+  w = min1
+else
+  x = min1
+
+if y < z:
+  y = min2
+else
+  z = min2
+
+print("w =", w, "x =", x, "y =", y, "z =", z)
