@@ -12,10 +12,10 @@ percentage = (doubles / 10000) * 100
 print("Percentage of doubles out of 10000 rolls is: {0:0.2f}%".format(percentage))
 
 #Question 4
-w = float(input("Input value for w: "))
-x = float(input("Input value for x: "))
-y = float(input("Input value for y: "))
-z = float(input("Input value for z: "))
+w = int(input("Input value for w: "))
+x = int(input("Input value for x: "))
+y = int(input("Input value for y: "))
+z = int(input("Input value for z: "))
 
 if w < x:
   min1 = w
@@ -44,3 +44,14 @@ else:
   z = min2
 
 print("w =", w, "x =", x, "y =", y, "z =", z)
+
+#Question 5
+numbers = []
+
+for i in range(10)
+  num = int(input("Enter number {i+1}/10: "))
+  list.append(num)
+
+sort = sorted(sort(list))
+
+print("The 2 smallest numbers are:", sort[:2])
