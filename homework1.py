@@ -68,6 +68,6 @@ import random
 
 for i in range(50):
   line = 10 + i
-  for n in range(line)
+  for n in range(line):
     print(random.randint(0,1), end="")
   print()
